@@ -95,7 +95,7 @@ PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
 # Initialize Pinecone with the API key
 pc = Pinecone(api_key=PINECONE_API_KEY)
 # Place the own index we created earlier
-index = pc.Index("ghw-rag-aiml")
+index = pc.Index("ai-textbook-assistant")
 
 def upsert_data_to_pinecone(data_with_metadata: list[dict[str, any]]) -> None:
     index.upsert(vectors=data_with_metadata)
@@ -129,4 +129,4 @@ def generate_answer(answers: dict[str, any], prompt: str) -> str:
       ]
   )
 
-  st.write(completion.choices[0].message)
+  st.write(completion.choices[0].message.content)
