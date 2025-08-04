@@ -1,7 +1,7 @@
 from openai import OpenAI
 import streamlit as st
 
-st.title("GPT Wrapper")
+st.title("Basic Chat Interface")
 
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 

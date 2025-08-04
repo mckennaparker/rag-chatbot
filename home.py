@@ -1,11 +1,11 @@
 import streamlit as st
 
-st.title("Welcome to my first AI chatbot!")
+st.title("Welcome to the AI Textbook Helper")
 
 st.divider()
 
-st.subheader("Interact with different versions of the chatbot from the sidebar.")
+st.subheader("You can choose whether you would like to interact with a basic chat interface, or one that uses a RAG (Retrieval-Augmented Generation) model to answer questions based on the content of a PDF document.")
 
-st.image("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2023%2F03%2F11%2F22%2F12%2Fai-generated-7845410_1280.jpg&f=1&nofb=1&ipt=3ac1c85684a29f25e6522282cadbcd8aeaeaf0af640f6bdb0c2160f51064cd2b&ipo=images")
+st.image("https://media.istockphoto.com/id/1452320161/photo/medical-student-in-uniform-studying-at-table-indoors-closeup.jpg?s=612x612&w=0&k=20&c=UCGUruGXrVkGEEFZeDYNV4CUkA3f2OS2NGv0l-JID_Q=", width=690)
 
-st.write("Built with love @mckennaparker ❤️")
+st.write("Built by McKenna Parker during the Penn Undergraduate Research Mentorship Program 2025 for Dr. Dumon's lab in the surgery department at Perelman School of Medicine.")
