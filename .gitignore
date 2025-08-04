@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-pdf/
+*.pdf
 # C extensions
 *.so
 .streamlit/secrets.toml
