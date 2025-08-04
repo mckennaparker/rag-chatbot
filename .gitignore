@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+pdf/mlh-data.pdf
 # C extensions
 *.so
 .streamlit/secrets.toml
