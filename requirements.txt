@@ -3,3 +3,4 @@ langchain
 pinecone
 langchain-community
 langchain-openai
+pypdf
