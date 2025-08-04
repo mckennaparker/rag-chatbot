@@ -21,8 +21,7 @@ prompt = st.text_input("Ask a question about your PDF content:")
 if (st.button("Get Answer") and prompt):
     query_embeddings = get_query_embeddings(query=prompt)
     answers = query_pinecone_index(query_embeddings=query_embeddings)
-    response = generate_answer(answers=answers)
-    st.write("Answer:", response)
+    response = generate_answer(answers, prompt)
     st.success("Answers fetched successfully!")
 else:
     st.warning("Please click on the button to get your answer embeddings.")
