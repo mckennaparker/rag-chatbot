@@ -1,2 +1,7 @@
 openai
+langchain
+pinecone
+hashlib
 streamlit
+langchain-community
+langchain-openai
