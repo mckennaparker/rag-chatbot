@@ -129,4 +129,4 @@ def generate_answer(answers: dict[str, any], prompt: str) -> str:
       ]
   )
 
-  st.write(completion.choices[0].message.content)
+  st.write(completion.choices[0].message)
